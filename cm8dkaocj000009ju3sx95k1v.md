@@ -189,7 +189,7 @@ With this approach, having an instance of a Value Object guarantees that its val
 
 ### 3\. **Persisting Value Objects with Doctrine**
 
-Symfony’s integration with Doctrine makes it easy to persist Value Objects to the database. Using Doctrine's [**embeddable**](https://www.doctrine-project.org/projects/doctrine-orm/en/3.3/tutorials/embeddables.html) feature, you can treat a Value Object as part of a larger entity.  
+Symfony’s integration with Doctrine makes it easy to persist Value Objects to the database. Using Doctrine's [**embeddable**](https://www.doctrine-project.org/projects/doctrine-orm/en/3.3/tutorials/embeddables.html) feature, you can treat a Value Object as part of a larger entity.
 
 #### Email Value Object:
 
@@ -203,7 +203,8 @@ use Webmozart\Assert\Assert;
 #[Embeddable]
 final readonly class Email implements \Stringable
 {
-    #[Column(type: "string")] public string $email;
+    #[Column(type: "string")]
+    public string $email;
 }
 ```
 
@@ -219,7 +220,8 @@ use Webmozart\Assert\Assert;
 #[Embeddable]
 final readonly class Username implements \Stringable
 {
-    #[Column(type: "string")] public string $username;
+    #[Column(type: "string")] 
+    public string $username;
 }
 ```
 
