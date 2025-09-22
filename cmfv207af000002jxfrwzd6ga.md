@@ -6,7 +6,6 @@ datePublished: Mon Sep 22 2025 11:39:25 GMT+0000 (Coordinated Universal Time)
 cuid: cmfv207af000002jxfrwzd6ga
 slug: symfony-strategy-design-pattern
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1758535611552/cd340803-decb-4846-ad47-2b92bd8e6585.jpeg
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1758541096159/42bc79fc-617c-4ad2-8ba0-ec1f9dde0754.jpeg
 tags: design-patterns, php, software-architecture, symfony
 
 ---
